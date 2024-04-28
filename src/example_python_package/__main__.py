@@ -2,10 +2,12 @@
 # Import the main package
 import example_python_package
 import argparse
+import importlib.metadata
 
 if __name__ == "__main__":
 
-    print("__main__ entry")
+    print(f"within package: {importlib.metadata.packages_distributions()}")
+    print(f"{__file__}:__main__")
 
     parser = argparse.ArgumentParser()
 
@@ -24,7 +26,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--version",
         action="version",
-        version="%(prog)s (version {version})".format(version=__version__))
+        version="%(prog)s (version {version})".format(version=importlib.metadata.version('example_python_package')))
 
     args = parser.parse_args()
 

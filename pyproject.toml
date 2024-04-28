@@ -1,10 +1,10 @@
 [project]
 name = "example-python-package"
-version = "0.1"
+version = "0.0.1"
 description = "this is an example python package using source layout"
 readme = "README.md"
 requires-python = ">=3.8"
-dynamic = ["version"]
+#dynamic = ["version"]
 keywords = ["fixme"]
 authors = [
     {name = "Chip Lukes", email = "34627158+chiplukes@users.noreply.github.com" },
@@ -24,10 +24,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-Homepage = "https://github.com/chiplukes/fixme-project-name"
-Changelog = "https://github.com/chiplukes/fixme-project-name/releases"
-Issues = "https://github.com/chiplukes/fixme-project-name/issues"
-CI = "https://github.com/chiplukes/fixme-project-name/actions"
+Homepage = "https://github.com/chiplukes/example-python-package"
+Changelog = "https://github.com/chiplukes/example-python-package/releases"
+Issues = "https://github.com/chiplukes/example-python-package/issues"
+CI = "https://github.com/chiplukes/example-python-package/actions"
 
 [project.optional-dependencies]
 test = ["pytest"]

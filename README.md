@@ -29,10 +29,20 @@ cd example-python-package
 python -m venv .venv
 source venv/bin/activate
 ```
+
 Now install the dependencies and test dependencies:
 ```bash
+python -m pip install -e .
+
+# maybe?
 pip install -e '.[test]'
 ```
+
+Running main package
+```bash
+python -m example_python_package
+```
+
 To run the tests:
 ```bash
 pytest

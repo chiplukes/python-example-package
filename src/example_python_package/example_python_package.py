@@ -7,7 +7,7 @@ from .complex_submodule import complex_submodule1a,complex_submodule1b
 
 def example_python_package_function():
 
-    print('example_python_package_main')
+    print(f"within: {__file__} - fun()")
 
     simple_submodule.simple_fun()
 

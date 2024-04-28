@@ -1,3 +1,3 @@
 
 def simple_fun():
-    print('In simple submodule (a single file).')
+    print(f"within: {__file__} - simple_fun()")
