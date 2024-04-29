@@ -5,7 +5,7 @@ from . import simple_submodule
 # Import the subpackage_module
 from .complex_submodule import complex_submodule1a,complex_submodule1b
 
-def example_python_package_function():
+def python_example_package_function():
 
     print(f"within: {__file__} - fun()")
 

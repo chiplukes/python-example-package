@@ -1,6 +1,6 @@
 
 # Import the main package
-import example_python_package
+import python_example_package
 import argparse
 import importlib.metadata
 
@@ -26,8 +26,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--version",
         action="version",
-        version="%(prog)s (version {version})".format(version=importlib.metadata.version('example_python_package')))
+        version="%(prog)s (version {version})".format(version=importlib.metadata.version('python_example_package')))
 
     args = parser.parse_args()
 
-    solved = example_python_package.example_python_package_function()
+    solved = python_example_package.python_example_package_function()

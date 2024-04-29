@@ -1,5 +1,5 @@
 [project]
-name = "example-python-package"
+name = "python-example-package"
 version = "0.0.1"
 description = "this is an example python package using source layout"
 readme = "README.md"
@@ -24,10 +24,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-Homepage = "https://github.com/chiplukes/example-python-package"
-Changelog = "https://github.com/chiplukes/example-python-package/releases"
-Issues = "https://github.com/chiplukes/example-python-package/issues"
-CI = "https://github.com/chiplukes/example-python-package/actions"
+Homepage = "https://github.com/chiplukes/python-example-package"
+Changelog = "https://github.com/chiplukes/python-example-package/releases"
+Issues = "https://github.com/chiplukes/python-example-package/issues"
+CI = "https://github.com/chiplukes/python-example-package/actions"
 
 [project.optional-dependencies]
 test = ["pytest"]
