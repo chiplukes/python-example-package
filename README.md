@@ -1,6 +1,6 @@
 # python-example-package
-[![Tests Status](./reports/junit/junit-badge.svg?dummy=8484744)](./reports/junit/report.html)
-[![Coverage Status](./reports/coverage/coverage-badge.svg?dummy=8484744)](./reports/coverage/index.html)
+[![Tests Status](https://github.com/chiplukes/python-example-package/actions/workflows/test.yml/badge.svg)]
+[![Coverage Status](https://github.com/chiplukes/python-example-package/actions/workflows/test.yml/coverage-badge.svg)]
 [![Changelog](https://img.shields.io/github/v/release/chiplukes/python-example-package?include_prereleases&label=changelog)](https://github.com/chiplukes/python-example-package/releases)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/chiplukes/python-example-package/blob/main/LICENSE)
 

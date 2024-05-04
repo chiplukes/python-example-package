@@ -27,6 +27,10 @@ jobs:
     - name: Run tests
       run: |
         pytest --doctest-modules --junitxml=reports/junit/junit.xml --cov=python_example_package --cov-report=xml:reports/coverage/coverage.xml --cov-report=html:reports/coverage
-        genbadge tests -o ./reports/junit/junit-badge.svg
-        genbadge coverage -o ./reports/coverage/coverage-badge.svg
+        # could not figure out how to link to these:
+        #genbadge tests -o ./reports/junit/junit-badge.svg
+        #genbadge coverage -o ./reports/coverage/coverage-badge.svg
+        genbadge tests
+        genbadge coverage
+
 
