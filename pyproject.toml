@@ -30,7 +30,7 @@ Issues = "https://github.com/chiplukes/python-example-package/issues"
 CI = "https://github.com/chiplukes/python-example-package/actions"
 
 [project.optional-dependencies]
-test = ["pytest"]
+test = ["pytest","pytest-cov"]
 
 
 [tool.ruff.lint]
@@ -47,15 +47,14 @@ select = [
 ignore = ["E501"]
 
 
-[tool.mypy]
-strict = "True"
-implicit_reexport = "True"
-check_untyped_defs = true
-ignore_missing_imports = true
-
-# Exclude type checking on files/dirs
-exclude = [
-  # TOML basic string (double-quotes, backslash and other characters need escaping)
-  # TOML literal string (single-quotes, no escaping necessary)
-]
+#[tool.mypy]
+#strict = "True"
+#implicit_reexport = "True"
+#check_untyped_defs = true
+#ignore_missing_imports = true
+## Exclude type checking on files/dirs
+#exclude = [
+#  # TOML basic string (double-quotes, backslash and other characters need escaping)
+#  # TOML literal string (single-quotes, no escaping necessary)
+#]
 
