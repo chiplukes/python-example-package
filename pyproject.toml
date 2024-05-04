@@ -16,7 +16,7 @@ classifiers = [
     "Operating System :: OS Independent"
 ]
 dependencies = [
-
+"pre-commit"
 ]
 
 [build-system]
@@ -57,4 +57,3 @@ ignore = ["E501"]
 #  # TOML basic string (double-quotes, backslash and other characters need escaping)
 #  # TOML literal string (single-quotes, no escaping necessary)
 #]
-

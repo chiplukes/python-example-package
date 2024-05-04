@@ -1,8 +1,7 @@
 # python-example-package
 [![Tests Status](https://github.com/chiplukes/python-example-package/actions/workflows/test.yml/badge.svg)]
-[![Coverage Status](https://github.com/chiplukes/python-example-package/actions/workflows/test.yml/coverage-badge.svg)]
 [![Changelog](https://img.shields.io/github/v/release/chiplukes/python-example-package?include_prereleases&label=changelog)](https://github.com/chiplukes/python-example-package/releases)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/chiplukes/python-example-package/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/chiplukes/python-example-package/blob/main/LICENSE)
 
 This is a simple project that can be used to start new python package.
 
@@ -46,4 +45,9 @@ To run the tests:
 ```bash
 pip install -e '.[test]'
 pytest
+```
+
+For using pre-commit hooks:
+```bash
+pre-commit install
 ```

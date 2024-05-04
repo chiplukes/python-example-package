@@ -1,12 +1,11 @@
-
-# Import the simple subpackages/helpers from the current folder "."
+# Import the simple submodule
 from . import simple_submodule
 
 # Import the subpackage_module
-from .complex_submodule import complex_submodule1a,complex_submodule1b
+from .complex_submodule import complex_submodule1a, complex_submodule1b
+
 
 def python_example_package_function():
-
     print(f"within: {__file__} - fun()")
 
     simple_submodule.simple_fun()
@@ -15,4 +14,3 @@ def python_example_package_function():
     complex_submodule1b.fun()
 
     return True
-

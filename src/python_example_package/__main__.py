@@ -1,12 +1,10 @@
-
-# Import the main package
-import python_example_package
 import argparse
 import importlib.metadata
 
-if __name__ == "__main__":
+import python_example_package
 
-    print(f"within package: {importlib.metadata.packages_distributions()}")
+if __name__ == "__main__":
+    print(f"package: {importlib.metadata.packages_distributions()}")
     print(f"{__file__}:__main__")
 
     parser = argparse.ArgumentParser()
@@ -16,17 +14,17 @@ if __name__ == "__main__":
 
     # Optional verbosity counter (eg. -v, -vv, -vvv, etc.)
     parser.add_argument(
-        "-v",
-        "--verbose",
-        action="count",
-        default=0,
-        help="Verbosity (-v, -vv, etc)")
+        "-v", "--verbose", action="count", default=0, help="Verbosity (-v, -vv, etc)"
+    )
 
     # Specify output of "--version"
     parser.add_argument(
         "--version",
         action="version",
-        version="%(prog)s (version {version})".format(version=importlib.metadata.version('python_example_package')))
+        version="%(prog)s (version {version})".format(
+            version=importlib.metadata.version("python_example_package")
+        ),
+    )
 
     args = parser.parse_args()
 
