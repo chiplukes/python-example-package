@@ -44,7 +44,7 @@ select = [
   "PL",  # Pylint
   "RUF", # Ruff-specific rules
 ]
-ignore = ["E501"]
+ignore = ["E501","S101"]
 
 
 #[tool.mypy]
